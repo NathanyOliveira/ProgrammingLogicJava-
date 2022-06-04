@@ -37,3 +37,32 @@ public class Exercicio04VerificacaoAposentadoria {
 	}
 
 }
+
+
+
+//import java.util.Scanner;
+//
+//public class Exercicio04_Aposentadoria {
+//
+//	public static void main(String[] args) {
+//		
+//		final Integer IDADE_MINIMA_PARA_APOSENTAR = 55;
+//		final Integer TEMPO_MINIMO_DE_CONTRIBUICAO = 25;
+//		
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.print("Informe sua idade: ");
+//		Integer idade = scanner.nextInt();
+//		
+//		System.out.print("Informe o tempo de contribuição: ");
+//		Integer tempoContribuicao = scanner.nextInt();
+//		
+//		if (idade >= IDADE_MINIMA_PARA_APOSENTAR && tempoContribuicao >= TEMPO_MINIMO_DE_CONTRIBUICAO) {
+//			System.out.print("Parabéns! Você já pode se aposentar");
+//		}else {
+//			System.out.println("Você ainda não está apto à se aposentar!");
+//		}
+//	scanner.close();
+//	}
+//
+//}
